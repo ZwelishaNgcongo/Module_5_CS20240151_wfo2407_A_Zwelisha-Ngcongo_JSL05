@@ -14,7 +14,7 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for headings */
 }
 
-.playlist {
+.playlists,ul {
     margin: 20px;
     padding: 20px; /* Increased padding */
     background-color: #6A5ACD; /* Purple background for playlists */
@@ -36,4 +36,15 @@ h1 {
 .song-title:hover {
     text-decoration: none; /* Remove underline on hover */
     color: #00FF00; /* Green color on hover */
+}
+li{
+    
+    list-style: none;
+    padding: 0;
+}
+#playlists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
